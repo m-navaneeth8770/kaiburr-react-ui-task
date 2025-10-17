@@ -1,0 +1,70 @@
+/* --- Global & Layout Styles --- */
+body {
+  background-color: #f0f2f5; /* A standard, neutral background */
+}
+
+.main-layout {
+  min-height: 100vh;
+  background-color: #f0f2f5;
+}
+
+.header {
+  background-color: #001529; /* A professional dark blue/charcoal header */
+  display: flex;
+  align-items: center;
+  padding: 0 50px;
+  position: sticky; /* Keeps the header at the top when scrolling */
+  top: 0;
+  z-index: 10;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.header-title {
+  color: white !important; /* Ensure title is white */
+  margin: 0 !important;
+  font-weight: 300; /* A lighter font weight for a modern feel */
+}
+
+.content-wrapper {
+  padding: 24px 50px;
+  max-width: 1600px;
+  margin: auto;
+  width: 100%;
+}
+
+.content-card {
+  /* This creates the "floating card" effect */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 8px !important; /* Slightly more rounded corners */
+}
+
+
+/* --- Table Enhancements --- */
+
+/* Style for alternating "striped" table rows for better readability */
+.striped-table .ant-table-tbody > tr:nth-child(even) > td {
+  background-color: #fafafa;
+}
+
+/* Add a subtle hover effect to table rows */
+.striped-table .ant-table-tbody > tr:hover > td {
+  background-color: #e6f7ff; /* A light blue hover color */
+}
+
+/* --- Expanded Row (Execution History) --- */
+.execution-history-card .ant-card-head {
+  background-color: #f7f7f7;
+  font-weight: 500;
+}
+
+/* Style for the <pre> tag to make output readable */
+.output-pre {
+  margin: 0;
+  white-space: pre-wrap;
+  word-break: break-all;
+  background-color: #282c34; /* A dark background for code/output */
+  color: #abb2bf;
+  padding: 10px;
+  border-radius: 4px;
+  font-family: 'Courier New', Courier, monospace;
+}
