@@ -83,17 +83,17 @@ To thoroughly test the search functionality, two additional tasks were added to 
 ![Dashboard with More Data](screenshots/4-dashboard-populated.png)
 
 ### 5. Global Search by Owner
-The search bar successfully filters the grid in real-time, showing only the tasks matching the owner name "NAVANEETH M".
+The search bar successfully filters the grid in real-time, showing only the tasks matching the owner name "M NAVANEETH".
 
 ![Search by Owner](screenshots/5-search-by-owner.png)
 
 ### 6. Global Search by ID
-The search functionality is confirmed to work across multiple fields, here showing the specific task matching the ID "multi-03".
+The search functionality is confirmed to work across multiple fields, here showing the specific task matching the ID "cloud-deploy-02".
 
 ![Search by ID](screenshots/6-search-by-id.png)
 
 ### 7. Task Execution and History
-This screenshot demonstrates a successful task execution. The accordion panel for the executed task is expanded, showing the captured output, while the other task shows no history.
+This screenshot demonstrates a successful task execution. The accordion panel for the executed task is expanded, showing the captured output, while the other task with no execution shows no history.
 
 ![Execution History](screenshots/7-execution-history.png)
 
